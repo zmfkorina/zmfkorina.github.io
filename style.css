@@ -1,0 +1,176 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: #D0C5C5;
+    color: white;
+    height: 100%;
+        
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bree Serif', serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.card-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    text-align: justify;
+}
+.no-margin
+{
+  margin: 0px !important;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+.navbar {
+    background-color: #d49E3B;
+    margin-top: -0.35rem !important;
+}
+
+i {
+    font-size: 20px;
+    color: white;
+}
+
+.jumbotron {
+    background-image: url(Pictures/MainS.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+}
+
+.mybutton2 {
+    background-color: #16662B;
+    padding: 9px 10px;
+    display: inline-block;
+    border-radius: 3px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.178);
+}
+.mybutton2:hover
+{
+    background-color: #20709F;
+}
+
+.floatboxmob {
+    background-color: #d49E3B;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bg {
+    
+        min-height: 590px;
+}
+
+.foo
+{ background-color: #d49E3B;}
+
+@media (min-width: 768px) { 
+
+    .card-columns {
+        column-count: 2;
+      }
+
+    .mybutton {
+        background-color: #16662B;
+        padding: 9px 10px;
+        display: inline-block;
+        border-radius: 3px;
+        box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.178);
+    }
+    .mybutton:hover
+    {
+        background-color: #20709F;
+    }
+
+    .jumbotron {
+        background-image: url(Pictures/MainM.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 400px;
+        
+    }
+
+    .floatbox {
+        background-color: rgba(0, 0, 0, 0.24);
+        border-radius: 5px;
+        padding: 20px;
+        
+    }
+ }
+
+ @media (min-width: 992px) { 
+     
+    .jumbotron {
+        background-image: url(Pictures/MainL.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 600px;
+    }
+    .card-columns {
+    column-count: 4;
+  }
+
+  }
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Bree Serif', serif;
+border-radius rounded corners
+box-shadow: 5px 5px 5px black
+max-width */
+
+.btn {
+    background-color: #16662B;
+    border-color: #16662B;
+}
+btn:hover 
+{
+    background-color: #20709F
+}
+.card-body {
+    background-color: #d49E3B;
+    
+}
+
+.card {
+    border-radius: 15px;
+}
+.img-border
+{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.gapfill {
+    min-height: 55px;
+    background-color: #16662B;
+    padding-top: 10px;
+}
+
+.yellow {
+    background-color: #d49E3B;
+    
+} 
+
+.green
+{
+    background-color: #16662B;
+    
+}
+
+.cardi {
+    border-width: 5px;
+    border-radius: 3px;
+
+}
