@@ -8,6 +8,11 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Bree Serif', serif;
+    color: white;
+}
+
+.fonti {
+    font-family: 'Bree Serif', serif;
 }
 
 a {
@@ -15,7 +20,15 @@ a {
     text-decoration: none;
 }
 
+.textlink {
+    color: white;
+    text-decoration: none;
+}
 
+.textlink:hover {
+    color: white;
+    text-decoration: none;
+}
 
 .card-text {
     font-family: 'Open Sans', sans-serif;
@@ -24,6 +37,7 @@ a {
 
 p {
     text-align: justify;
+    color: white;
 }
 .no-margin
 {
@@ -109,6 +123,8 @@ i {
         padding: 20px;
         
     }
+
+
  }
 
  @media (min-width: 992px) { 
@@ -117,14 +133,30 @@ i {
         background-image: url(Pictures/MainL.jpg);
         background-size: cover;
         background-position: center;
-        min-height: 600px;
+        min-height: 650px;
+    }
+    .card-columns {
+    column-count: 3;
+  }
+
+ 
+
+  }
+
+  @media (min-width: 1200px) { 
+      
+    .jumbotron {
+        background-image: url(Pictures/MainL.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 800px;
     }
     .card-columns {
     column-count: 4;
   }
 
-  }
 
+   }
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Bree Serif', serif;
 border-radius rounded corners
@@ -174,3 +206,13 @@ btn:hover
     border-radius: 3px;
 
 }
+
+.cardo 
+{
+    background-color: #d49E3B;
+}
+
+.texti {
+    background-color: #D0C5C5;
+}
+
